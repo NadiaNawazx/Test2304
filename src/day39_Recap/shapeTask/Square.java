@@ -1,6 +1,6 @@
 package day39_Recap.shapeTask;
 
-public class Square extends Shape {
+public class Square extends Shape{
 
     private double side;
 
