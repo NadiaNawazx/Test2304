@@ -2,7 +2,7 @@ package day41_Exceptions;
 
 public class Checked_vs_Unchecked {
 
-        public static void main(String[] args) {
+        public static void main(String[] args) throws InterruptedException {
 
             //unchecked exception:
 
@@ -37,14 +37,14 @@ public class Checked_vs_Unchecked {
 
             System.out.println("Hello");
 
-            //   Thread.sleep(3000); // checked
+            Thread.sleep(3000); // checked
 
             System.out.println("Cydeo");
 
 
             // FileInputStream file = new FileInputStream("path of the file");
 
-            System.out.println("Java".charAt(1000)); // unchecked
+            System.out.println("Java".charAt(30)); // unchecked
 
 
 
