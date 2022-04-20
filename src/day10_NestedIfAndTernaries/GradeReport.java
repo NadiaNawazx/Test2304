@@ -1,6 +1,5 @@
 package day10_NestedIfAndTernaries;
 
-import jdk.swing.interop.SwingInterOpUtils;
 
 public class GradeReport {
     public static void main(String[] args) {

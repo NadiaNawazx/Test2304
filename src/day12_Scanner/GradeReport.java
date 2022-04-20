@@ -1,7 +1,5 @@
 package day12_Scanner;
 
-import jdk.swing.interop.SwingInterOpUtils;
-
 import java.util.Scanner;
 
 public class GradeReport {
