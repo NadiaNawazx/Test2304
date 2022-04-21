@@ -36,7 +36,7 @@ public class DisadvantageOfThrowsKeyword2 {
     public static void method1() throws InterruptedException {
 
         //new FileInputStream("");
-        Thread.sleep(3000);
+        Thread.sleep(1);
 
     }
 
@@ -50,7 +50,7 @@ public class DisadvantageOfThrowsKeyword2 {
     public static void method3() throws  InterruptedException {
 
         method2();
-        Thread.sleep(1000);
+        Thread.sleep(1);
 
     }
 
